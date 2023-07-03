@@ -1,0 +1,16 @@
+{ 
+  "name": "flashcards app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "tailwindcss -i src/input.css -o src/output.css",
+    "watch": "tailwindcss -i src/input.css -o src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
